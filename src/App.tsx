@@ -84,7 +84,7 @@ function App() {
   }
   return (
     <>
-      <ThemeProvider theme={isDark ? themeDark : themeWhite}>
+      <ThemeProvider theme={isDark ? themeWhite : themeDark}>
         <Themebutton onClick={useTheme}>테마변경</Themebutton>
         <GlobalStyle />
         <Router />
